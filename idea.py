@@ -40,3 +40,4 @@ else:
     idea = raw_input("Type your idea: ")
     writeFile(len(listFiles()) + 1, idea)
     print("")
+    
