@@ -25,8 +25,8 @@ def calculate(a, b, o):
     elif o == "**":
         res = a ** b
     else:
-        print("Unkown operator")
-    
+        res = "Unknown operator"
+
     print("Result: " + str(res))
     print("")
 
