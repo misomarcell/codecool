@@ -33,3 +33,4 @@ def calculate(a, b, o):
 i = 1
 while i == 1:
     getInput()
+    
