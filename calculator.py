@@ -1,6 +1,7 @@
 def getInput():
     usrInput1 = input("Enter a number (or a letter to \033[1mexit\033[0m): ")
     try:
+        a = int(usrInput1)
         #Input is numeric
         usrOperator = input("Enter an operator: ")
         usrInput2 = input("Enter another number: ")
